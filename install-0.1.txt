@@ -1,0 +1,24 @@
+EASYPANEL 0.1
+
+pochi semplici passaggi:
+
+1) Scarica il pacchetto easypanel, versione 0.1
+
+2) scompatta la cartella e caricalo nella root del tuo server. 
+    -Se non lo carichi nella root del tuo server dovrai cambiare in reg.lib.php la funzione reg_send_confirmation_mail.
+     devi inserire il path giusto per la generazione della mail automatica.
+
+3) Modifica il file easypanel.sql. L'ultima riga carica un utente admin.
+     user: admin
+     password: pwadmin
+     
+     Devi inserire i dati corretti per il primo user, solo lui potrà creare nuovi utenti da pannello. Successivamente sarà sempre
+     possibile cambiare i dati dell'admin direttamente nel tuo Database.
+
+4) crea un database ed importa il file easypanel.sql
+
+5) modifica il file /include/config.php ed inserisci i dati del tuo db
+
+6) cancella il file easypanel.sql
+
+7) vai alla tua home page ed inserisci i dati del tuo admin!

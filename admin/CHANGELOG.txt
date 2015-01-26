@@ -1,0 +1,12 @@
+// $Id: CHANGELOG.txt,v 1 26/01/2015 
+
+Easypanel 0.1
+----------------------
+- Initial release
+
+
+TODO
+----------------------
+- feed rss
+- upload
+- super user

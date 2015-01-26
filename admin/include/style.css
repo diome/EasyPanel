@@ -1,0 +1,343 @@
+/* 
+=======================================================
+Lemon CSS
+
+Released for OSWD and OWD.
+Coded by Anthony Yeung (http://smallpark.org)
+May 24 2005
+It would be nice if you could leave this here, thanks.
+=======================================================
+
+CHANGELOG
+
+Coded by Diomede Mazzone
+Dicember 20 2009
+=======================================================
+
+*/
+
+html,body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin-top: 20px;
+
+}
+
+.wrapper{
+		border-style: none;
+	}
+
+div#content a, div#extra a, div#sidebar a {
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #F1F1F1;
+	border-right: 1px solid #F1F1F1;
+	padding: 1px;
+}
+
+div#content a:hover , div#extra a:hover, div#sidebar a:hover {
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	padding: 1px;
+}
+
+div#header {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #EEE;
+}
+
+div#header h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	color: #333333;
+	letter-spacing: -1px;
+}
+
+div#header h2 { /* The tagline thing */
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999;
+	padding-left: 20px;
+	margin-top: -15px;
+}
+
+#navigation {
+font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+float: right;
+}
+
+#navigation li {
+display: inline;
+padding-right: 20px;
+font-size: 11px;
+}
+
+#navigation li a {
+font-size: 11px;
+color: #666;
+font-weight: normal;
+padding: 4px;
+text-decoration: none;
+}
+
+#navigation li a:hover {
+text-decoration: underline;
+}
+
+div#container {
+min-height: 500px;
+border-style: none;
+text-align:left
+}
+
+div#content p, div#extra p, div#sidebar p {
+font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #444;
+line-height:1.8em;
+}
+
+div#content h1, div#extra h1, div#sidebar h1 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	padding: 3px 6px;
+	background-color: #F9F9F9;
+	border-bottom: 1px solid #F1F1F1;
+	border-right: 1px solid #F1F1F1;
+}
+
+div#content h2 {
+font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #444;
+margin: 0;
+padding: 0;
+}
+
+div#content h3 {
+font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: #444;
+margin: 0;
+padding: 0;
+
+}
+
+
+div#footer p {
+
+margin-right:0px;
+padding:0px 0px;
+}
+
+div#container {
+	width:900px;
+	margin:0 auto;
+}
+td {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: none;
+	border-left:  1px solid #CCCCCC;
+	border-right: none;
+	
+}
+tr{
+	border-top: none;
+	border-bottom: none;
+	border-left:  1px solid #CCCCCC;
+	border-right: none;
+}
+th {
+	text-align: center;
+	border: none;	
+}
+
+.inserisci th {
+	text-align: center;
+	border: none;	
+}
+
+.inserisci tr, td{
+//	text-align: center;
+	border: 1px solid #CCCCCC;;	
+}
+
+div#sidebar {
+float:right;
+width:330px;
+padding-bottom: 10px;
+}
+
+div#extra {
+float:left;
+width:330px;
+}
+
+div#footer {
+margin-top: 10px;
+background-color: #333;
+color: #FFF;
+font-size: 11px;
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+clear:both;
+width:100%;
+padding: 5px;
+}
+
+div#footer a, div#footer a:hover {
+margin-top: 10px;
+background-color: #333;
+color: #FFF;
+font-size: 11px;
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+clear:both;
+width:100%;
+color: #FFBA27;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 1px solid #333; 
+border-right: 1px solid #333;
+}
+
+
+.step1  {
+background-image:url('../image/fase1.gif');
+background-repeat: no-repeat;
+background-position:center right;
+width: 100px;
+
+}
+
+.step2  {
+background-image:url('../image/fase2.gif');
+background-repeat: no-repeat;
+background-position:center right;
+width: 100px;
+}
+
+.result  {
+height: 100px;
+width: 500px;
+padding-top: 20px;
+padding-bottom: 0px;
+margin-left: 200px;
+margin-right:200px;
+}
+
+
+.preview  {
+margin: auto;
+width: 500px;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 0px;
+border: 2px solid #F9F9F9;
+}
+
+.anteprima  {
+font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+text-align: center;
+background-color: #F9F9F9;
+font-size: 18px;
+color: #444;
+
+}
+
+
+.titoli th{
+
+border: 2px solid #F9F9F9;
+}
+
+tasto tr, td {
+
+border: none;
+}
+
+.tasto td, img {
+
+padding-left: 0px;
+}
+
+.accept img {
+float: left;
+padding-left: 80px;
+padding-top: 15px;
+
+}
+.attach img {
+float:right;
+padding-right: 0px;
+padding-bottom: 25px;
+}
+
+
+
+.tabhomepage td{
+
+border-bottom: 2px solid #F9F9F9;
+}
+
+.category {
+float: right;
+padding-left: 0px;	
+	
+}
+
+
+/*
+
+ Would be nice if you could keep this credit below. Thanks.
+
+*/
+
+#design-by {
+float: right;
+display:inline;
+}
+
+.post {
+	color: #ff0900;
+	font-size: 90%;
+	font-style: italic;
+}
+
+#login {
+	text-align: center;
+	border-collapse: separate;
+	border-color: #bdbdbd;
+	border-width: 1px;
+	margin: auto;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+#login table {
+	border-width: 0px;
+	margin: auto;
+	position: relative;
+	display: table;
+}
+
